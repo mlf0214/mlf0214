@@ -52,7 +52,14 @@
 </tr>
 </table>
 
-
+<div align="center">
+  <a href="https://raw.githubusercontent.com/all-smile/nav/master/static/images/buymeacoffee.jpg" target="_blank" style="display: inline-block;">
+    <img
+        src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square"
+        align="center"
+    />
+  </a>
+</div>
 
 <!--
 **mlf0214/mlf0214** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
