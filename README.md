@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-<span><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mlf0214&layout=compact" height=145/></span><span><img src="https://github-readme-stats.vercel.app/api?username=mlf0214&count_private=true&show_icons=true" height=145/></span>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mlf0214&layout=compact" height=145/><img src="https://github-readme-stats.vercel.app/api?username=mlf0214&count_private=true&show_icons=true" height=145/>
 
 </div>
 
