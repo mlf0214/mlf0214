@@ -1,4 +1,7 @@
 ### Hi there 👋
+<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/mlf0214/blogImage@main/img/202310281530218.jpg" align="center" height="300" width="300" />
+</div>  
   
 
 ### <div align="center">大家好 我是一名专升本上岸的本科生 物联网工程专业 主要学习Java 目标是全栈工程师 目前学习补充一下前端知识</div>  
@@ -11,9 +14,6 @@
   
 
 <br/>  
-<div align="center">
-<img src="https://metrics.lecoq.io/mlf0214?template=classic&config.timezone=Asia%2FShanghai">
-</div>
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mlf0214&layout=compact" height=145/><img src="https://github-readme-stats.vercel.app/api?username=mlf0214&count_private=true&show_icons=true" height=145/>
