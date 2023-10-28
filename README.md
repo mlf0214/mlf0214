@@ -1,5 +1,16 @@
 ### Hi there 👋
+  
 
+### <div align="center">大家好 我是一名专升本上岸的本科生 物联网工程专业 主要学习Java 目标是全栈工程师 目前学习补充一下前端知识</div>  
+  
+
+- 🔭 I’m currently working on [TypeScript NestJS](https://github.com/rishavanand/github-profilinator)  
+  
+
+- 🌱 I’m currently learning Vue3 and uniapp  
+  
+
+<br/>  
 <div align="center">
 <img src="https://metrics.lecoq.io/mlf0214?template=classic&config.timezone=Asia%2FShanghai">
 </div>
