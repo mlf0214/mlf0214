@@ -51,7 +51,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-04-20 00:28:48'
+  postUpdate: '2024-04-24 22:01:49'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -148,7 +148,91 @@
         }
       }
       detectApple()
-    })(window)</script><meta name="generator" content="Hexo 7.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="一川枫满江"><span class="site-name">一川枫满江</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">一川枫满江</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/20/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-19T16:15:04.460Z" title="Created 2024-04-20 00:15:04">2024-04-20</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+    })(window)</script><meta name="generator" content="Hexo 7.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background: im"><nav id="nav"><span id="blog-info"><a href="/" title="一川枫满江"><span class="site-name">一川枫满江</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">一川枫满江</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/24/Kotlin%E7%AC%94%E8%AE%B0-002%E6%95%B0%E7%BB%84/" title="数组">数组</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-24T13:53:03.857Z" title="Created 2024-04-24 21:53:03">2024-04-24</time></span></div><div class="content">数组
+
+
+类型
+Kotlin
+Java
+
+
+
+整型
+IntArray
+int[]
+
+
+整型装箱
+Array
+Integer[]
+
+
+字符
+CharArray
+char[]
+
+
+字符装箱
+Array
+Character[]
+
+
+字符串
+Array
+String[]
+
+
+类似 float&#x2F;double 等类型的数组也一样
+数组的创建12345val c0: IntArray = intArrayOf(1, 2, 3, 4)val c1: IntArray = IntArray(5) &#123;    it + 1&#125;println(c1.contentToString())
+
+数组的长度12val c0: IntArray = intArrayOf(1, 2, 3, 4)println(c0.size)
+
+数组的读写123val tips: Array&lt;String&gt; = arrayOf(&quot;Hello&quot;, &quot;World&quot;)tips[1] = &quot;Kotlin&quot;println(&quot;$&#123; ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/24/Kotlin%E7%AC%94%E8%AE%B0-001%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B/" title="基本类型">基本类型</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-24T13:53:03.843Z" title="Created 2024-04-24 21:53:03">2024-04-24</time></span></div><div class="content">基本类型基本类型Java 的基本类型分 int&#x2F;Integer 等，需要拆箱和装箱；
+Kotlin 的基本类型不需要手动拆装箱，并且当类型为可空类型时，基本类型可以为 null；
+Kotlin 的所有类型都有一个父类 Any，相当于 Java 中的 Object；
+Kotlin 的所有类型都有一个子类 Nothing，类似 java.lang.Void；
+
+
+
+类型
+Kotlin
+Java
+
+
+
+字节
+Byte
+byte&#x2F;Byte
+
+
+整型
+Int &amp; Long
+int&#x2F;Integer &amp; long&#x2F;Long
+
+
+浮点型
+Float &amp; Double
+float&#x2F;Float &amp; double&#x2F;Double
+
+
+字符
+Char
+char&#x2F;Character
+
+
+字符串
+String
+String
+
+
+布尔值
+Boolean
+boolean&#x2F;Boolean
+
+
+声明变量12345678// 可读写变量，后面可以再赋值var a:Int = 1// 只读变量，后面不可再赋值；相当于 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/24/Kotlin%E7%AC%94%E8%AE%B0-003%E5%8C%BA%E9%97%B4/" title="区间">区间</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-24T13:53:03.820Z" title="Created 2024-04-24 21:53:03">2024-04-24</time></span></div><div class="content">区间区间的创建1234567891011121314// 闭区间；范围在[1,10]val intRange1: IntRange = 1..10val charRange1: CharRange = &#x27;a&#x27;..&#x27;z&#x27;val longRange1: LongRange = 1L..10L// 前闭后开区间；范围在[1,10)val intRange2: IntRange = 1 until 10val charRange2: CharRange = &#x27;a&#x27; until &#x27;z&#x27;val longRange2: LongRange = 1L until 10L// 倒序区间；范围在[10,1]val intRange3: IntProgression = 10 downTo 1val charRange3: CharProgression = &#x27;z&#x27; downTo &#x27;a&#x27;val longRange3: LongProgression = 10L downTo 1L
+
+区间的 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/20/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-19T16:15:04.460Z" title="Created 2024-04-20 00:15:04">2024-04-20</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
 Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
 
 More info: Writing
@@ -161,4 +245,4 @@ More info: Generating
 Deploy to remote sites1$ hexo deploy
 
 More info: Deployment
-</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">John Doe</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/20/hello-world/" title="Hello World">Hello World</a><time datetime="2024-04-19T16:15:04.460Z" title="Created 2024-04-20 00:15:04">2024-04-20</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">April 2024</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">1</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-19T16:28:48.276Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By John Doe</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">John Doe</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/24/Kotlin%E7%AC%94%E8%AE%B0-002%E6%95%B0%E7%BB%84/" title="数组">数组</a><time datetime="2024-04-24T13:53:03.857Z" title="Created 2024-04-24 21:53:03">2024-04-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/24/Kotlin%E7%AC%94%E8%AE%B0-001%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B/" title="基本类型">基本类型</a><time datetime="2024-04-24T13:53:03.843Z" title="Created 2024-04-24 21:53:03">2024-04-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/24/Kotlin%E7%AC%94%E8%AE%B0-003%E5%8C%BA%E9%97%B4/" title="区间">区间</a><time datetime="2024-04-24T13:53:03.820Z" title="Created 2024-04-24 21:53:03">2024-04-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/20/hello-world/" title="Hello World">Hello World</a><time datetime="2024-04-19T16:15:04.460Z" title="Created 2024-04-20 00:15:04">2024-04-20</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">April 2024</span><span class="card-archive-list-count">4</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">4</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-24T14:01:49.735Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By John Doe</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
